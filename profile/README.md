@@ -102,7 +102,7 @@ Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e i
 - **Swagger**: Ferramenta para documentação automática de APIs, através de uma interface web.
 - **PostgreSQL**: Banco de dados relacional para o microsserviço de gestão de usuários.
 - **MongoDB**: Banco de dados NoSQL para o microsserviço de arquivos e e-mail.
-- **JasperReports**: Geração de relatórios (se aplicável).
+- **JasperReports**: Geração de relatórios.
 - **Thymeleaf**: Motor de templates para criação de e-mails dinâmicos.
 
 ---
@@ -154,23 +154,23 @@ Acreditamos que a colaboração contínua e o trabalho em equipe são essenciais
    - **Descrição**: Microsserviço de gestão de usuários, com backend em Spring Boot e frontend em Angular. Este projeto tem como objetivo criar uma interface administrativa para a criação, visualização, atualização e exclusão de usuários, além de implementar auditoria das operações realizadas.
    - **Objetivo de Aprendizado**: Integração de tecnologias backend e frontend, gerenciamento de usuários e auditoria de ações.
 
-2. **Arquivos**
+2. **Gerenciador de Microsserviços**
+
+   - **Tecnologias**: Spring Boot (Java)
+   - **Descrição**: Microsserviço para gerenciar a descoberta e o registro de outros microsserviços, utilizando Eureka. Ele permitirá que os microsserviços se registrem, localizem e se comuniquem em uma arquitetura distribuída, facilitando a escalabilidade e a manutenção da rede de serviços.
+   - **Objetivo de Aprendizado**: Explorar o uso de ferramentas como Eureka para gerenciamento de microsserviços e entender a importância da descoberta de serviços em arquiteturas distribuídas.
+
+3. **Arquivos**
 
    - **Tecnologias**: Spring Boot (Java), MongoDB
    - **Descrição**: Microsserviço para gerenciar o armazenamento e a manipulação de arquivos, com integração ao MongoDB, um banco de dados NoSQL. O sistema permitirá o upload e o download de arquivos de forma eficiente e escalável.
    - **Objetivo de Aprendizado**: Exploração de bancos de dados NoSQL, arquitetura de microsserviços e práticas para armazenamento e recuperação de dados não estruturados.
 
-3. **E-mail**
+4. **E-mail**
 
    - **Tecnologias**: Spring Boot (Java), MongoDB
    - **Descrição**: Microsserviço para envio de e-mails, tanto de forma síncrona quanto assíncrona. O sistema será escalável e eficiente no envio em massa de mensagens, com o armazenamento das informações no MongoDB.
    - **Objetivo de Aprendizado**: Integração de sistemas de envio de e-mails, gerenciamento de filas de mensagens e práticas de escalabilidade no envio em massa.
-
-4. **Gerenciador de Microsserviços**
-
-   - **Tecnologias**: Spring Boot (Java)
-   - **Descrição**: Microsserviço para gerenciar a descoberta e o registro de outros microsserviços, utilizando Eureka. Ele permitirá que os microsserviços se registrem, localizem e se comuniquem em uma arquitetura distribuída, facilitando a escalabilidade e a manutenção da rede de serviços.
-   - **Objetivo de Aprendizado**: Explorar o uso de ferramentas como Eureka para gerenciamento de microsserviços e entender a importância da descoberta de serviços em arquiteturas distribuídas.
 
 5. **Segurança**
 
