@@ -11,10 +11,10 @@
 #### Cada letra do nome da organização representa um valor essencial que nos guia em nossas práticas diárias e no desenvolvimento de nossos projetos.
 
 **T. Technique | Técnica**
-Buscamos aplicar as melhores práticas técnicas no desenvolvimento de nossos projetos. Acreditamos que a técnica é essencial para garantir que o software que lançamos seja cada vez mais robusto, eficiente, livre de erros e estamos sempre em buscando aprimoramento.
+Buscamos aplicar as melhores práticas técnicas no desenvolvimento de nossos projetos. Acreditamos que a técnica é essencial para garantir que o software que lançamos seja cada vez mais robusto, eficiente, livre de erros e estamos sempre em busca de aprimoramento.
 
 **H. Humanity | Humanidade**
-A tecnologia deve ser construída para e com as pessoas. Valorizamos a humanidade por trás de cada linha de código, buscando criar um ambiente inclusivo, colaborativo, empático, onde todos possam contribuir e aprender juntos.
+A tecnologia deve ser construída para as pessoas e com as pessoas. Valorizamos a humanidade por trás de cada linha de código, buscando criar um ambiente inclusivo, colaborativo, empático, onde todos possam contribuir e aprender juntos.
 
 **R. Responsibility | Responsabilidade**
 Sabemos que cada linha de código escrita carrega nossa responsabilidade. Estamos comprometidos com a qualidade, segurança e impacto das nossas soluções, buscando atender aos mais altos padrões superando os desafios que encontrados pelo caminho.
@@ -26,7 +26,7 @@ Cada lançamento de software tem um propósito claro. Nosso objetivo é gerar va
 A WEB é o campo de lançamento para as nossas soluções. Utilizamos as tecnologias da WEB com o objetivo de criar soluções que possam ter um impacto positivo, acessível, conectando pessoas, sistemas e informações de maneira eficiente.
 
 **I. Information | Informação**
-Acreditamos que a informação é o combustível para a inovação. A troca contínua de conhecimento, dados e ideias nos permite melhorar constantemente nossas soluções e atender às necessidades do mercado com mais eficácia.
+Acreditamos que a informação é o combustível da inovação. A troca contínua de conhecimento, dados e ideias nos permite melhorar constantemente nossas soluções e atender às necessidades do mercado com mais eficácia.
 
 **T. Technology | Tecnologia**
 Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e inovadoras. Buscamos sempre utilizar as tecnologias mais avançadas para desenvolver produtos escaláveis e preparados para os desafios que surgem, reconhecendo que há sempre mais a aprender e a aprimorar.
@@ -43,7 +43,7 @@ Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e i
 
 2. **Analista de Negócios**
 
-   - Auxilia o Product Owner a refinar as necessidades do cliente e traduzir os requisitos de negócio para a equipe técnica, garantindo que os desenvolvedores compreendam os objetivos.
+   - Auxilia o Product Owner a refinar as necessidades do cliente e traduzir os requisitos de negócios para a equipe técnica, garantindo que os desenvolvedores compreendam os objetivos.
 
 3. **Scrum Master**
 
@@ -78,7 +78,7 @@ Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e i
 
 ### Ferramentas de Colaboração
 
-- **Slack**: Plataforma de comunicação para a equipe.
+- **Discord**: Plataforma de comunicação para a equipe.
 - **Jira**: Gerenciamento de tarefas e acompanhamento de sprints.
 - **Confluence**: Plataforma para documentação e gestão de conhecimento.
 
@@ -109,7 +109,7 @@ Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e i
 
 ### Frontend
 
-- **Angular 18**: Framework JavaScript para o desenvolvimento do frontend.
+- **Angular 19**: Framework JavaScript para o desenvolvimento do frontend.
 - **Angular Material**: Biblioteca de componentes UI para melhorar a experiência do usuário.
 - **HTML5, CSS3 e SCSS**: Estruturação e estilização das páginas web.
 - **TypeScript**: Linguagem principal para o desenvolvimento no Angular.
@@ -140,7 +140,7 @@ Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e i
 
 ### Como Contribuir
 
-Sua contribuição é fundamental para o sucesso da organização, e cada minuto dedicado ao nosso aprendizado coletivo é de extrema importância. Para garantir que todos possam participar de maneira equilibrada, sugerimos que cada colaborador reserve entre **1 e 2 horas por dia**, de segunda a sexta-feira, para se envolver ativamente no desenvolvimento de nossos projetos abertos.
+Sua contribuição é fundamental para o sucesso da organização, e cada minuto dedicado ao nosso aprendizado coletivo é de extrema importância. Para garantir que todos possam participar de maneira justa, sugerimos que cada colaborador reserve entre **1 e 2 horas por dia**, de segunda a sexta-feira, para se envolver ativamente no desenvolvimento de nossos projetos abertos.
 
 Acreditamos que a colaboração contínua e o trabalho em equipe são essenciais para a criação de soluções de qualidade. Os projetos têm início previsto para **06/01/2025** e serão conduzidos de forma organizada, com uma sequência clara de entregas.
 
@@ -151,8 +151,8 @@ Acreditamos que a colaboração contínua e o trabalho em equipe são essenciais
 1. **Usuários**
 
    - **Tecnologias**: Spring Boot (Java), PostgreSQL, Angular
-   - **Descrição**: Microsserviço de gestão de usuários, com backend em Spring Boot e frontend em Angular. Este projeto tem como objetivo criar uma interface administrativa para a criação, visualização, atualização e exclusão de usuários, além de implementar auditoria das operações realizadas.
-   - **Objetivo de Aprendizado**: Integração de tecnologias backend e frontend, gerenciamento de usuários e auditoria de ações.
+   - **Descrição**: Microsserviço de gestão de usuários, com backend em Spring Boot e frontend em Angular. Este projeto tem como objetivo criar uma interface para a criação, visualização, atualização e exclusão de usuários, além de implementar auditoria das operações realizadas e funcionalidades de segurança como login, geração de tokens JWT e recuperação de senha.
+   - **Objetivo de Aprendizado**: Integração de tecnologias backend e frontend, gerenciamento de usuários e auditoria de ações, além de práticas de segurança como autenticação e autorização.
 
 2. **Gerenciador de Microsserviços**
 
@@ -169,16 +169,10 @@ Acreditamos que a colaboração contínua e o trabalho em equipe são essenciais
 4. **E-mail**
 
    - **Tecnologias**: Spring Boot (Java), MongoDB
-   - **Descrição**: Microsserviço para envio de e-mails, tanto de forma síncrona quanto assíncrona. O sistema será escalável e eficiente no envio em massa de mensagens, com o armazenamento das informações no MongoDB.
+   - **Descrição**: Microsserviço para envio de e-mails, tanto de forma síncrona quanto assíncrona. O sistema será escalável e eficiente no envio massivo de mensagens, com o armazenamento das informações no MongoDB.
    - **Objetivo de Aprendizado**: Integração de sistemas de envio de e-mails, gerenciamento de filas de mensagens e práticas de escalabilidade no envio em massa.
 
-5. **Segurança**
-
-   - **Tecnologias**: Spring Boot (Java), PostgreSQL, Angular
-   - **Descrição**: Microsserviço responsável pela segurança do sistema, com funcionalidades como login (geração de tokens JWT), cadastro, redefinição de senha e gerenciamento de permissões de usuários. Ele garantirá a proteção dos dados e a integridade das operações de acesso.
-   - **Objetivo de Aprendizado**: Desenvolver um sistema completo de autenticação e autorização, integrando microsserviços e aplicando práticas de segurança em arquiteturas distribuídas, com foco na proteção de dados e controle de acesso.
-
-6. **Gerenciador de Acesso**
+5. **Gerenciador de Acesso**
    - **Tecnologias**: Spring Boot (Java)
    - **Descrição**: Microsserviço para controlar o acesso aos microsserviços da organização. Ele será responsável por validar permissões de usuários e gerenciar os direitos de acesso aos diferentes serviços, utilizando tokens JWT para garantir a segurança e a integridade das comunicações.
    - **Objetivo de Aprendizado**: Implementar controle de acesso baseado em tokens JWT, aprimorar a segurança em APIs e gerenciar permissões em sistemas distribuídos, garantindo a integridade e a confidencialidade dos dados.
@@ -214,7 +208,7 @@ Estamos muito empolgados para contar com sua participação! Juntos, podemos cri
 Se você tiver alguma dúvida ou precisar de ajuda, entre em contato conosco!
 
 - **E-mail**: [contato@throwit.com.br](mailto:contato@throwit.com.br)
-- **Slack**: [https://throw-it.slack.com](https://throw-it.slack.com)
+- **Discord**: [Acesse nosso canal](https://discord.gg/qnvChggK)
 
 ---
 
