@@ -104,6 +104,7 @@ Tecnologia é a ferramenta que usamos para tentar criar soluções poderosas e i
 - **MongoDB**: Banco de dados NoSQL para o microsserviço de arquivos e e-mail.
 - **JasperReports**: Geração de relatórios.
 - **Thymeleaf**: Motor de templates para criação de e-mails dinâmicos.
+- **RabbitMQ**: Sistema de mensageria para comunicação e gerenciamento de filas de mensagens.
 
 ---
 
@@ -160,17 +161,17 @@ Acreditamos que a colaboração contínua e o trabalho em equipe são essenciais
    - **Descrição**: Microsserviço para gerenciar a descoberta e o registro de outros microsserviços, utilizando Eureka. Ele permitirá que os microsserviços se registrem, localizem e se comuniquem em uma arquitetura distribuída, facilitando a escalabilidade e a manutenção da rede de serviços.
    - **Objetivo de Aprendizado**: Explorar o uso de ferramentas como Eureka para gerenciamento de microsserviços e entender a importância da descoberta de serviços em arquiteturas distribuídas.
 
-3. **Arquivos**
+3. **Notificações**
+
+   - **Tecnologias**: Spring Boot (Java), RabbitMQ, MongoDB  
+   - **Descrição**: Microsserviço responsável pelo envio de notificações via e-mail e outros canais. O sistema suporta envio síncrono e assíncrono, garantindo escalabilidade e eficiência no envio massivo de mensagens. As notificações são gerenciadas por meio de filas no RabbitMQ, e os registros são armazenados no MongoDB para rastreamento e auditoria.
+   - **Objetivo de Aprendizado**: Aprimorar a integração com sistemas de envio de e-mails, aprofundar o conhecimento em gerenciamento de filas de mensagens (RabbitMQ), aplicar práticas de escalabilidade e processamento assíncrono para envio em massa.
+
+4. **Arquivos**
 
    - **Tecnologias**: Spring Boot (Java), MongoDB
    - **Descrição**: Microsserviço para gerenciar o armazenamento e a manipulação de arquivos, com integração ao MongoDB, um banco de dados NoSQL. O sistema permitirá o upload e o download de arquivos de forma eficiente e escalável.
    - **Objetivo de Aprendizado**: Exploração de bancos de dados NoSQL, arquitetura de microsserviços e práticas para armazenamento e recuperação de dados não estruturados.
-
-4. **E-mail**
-
-   - **Tecnologias**: Spring Boot (Java), MongoDB
-   - **Descrição**: Microsserviço para envio de e-mails, tanto de forma síncrona quanto assíncrona. O sistema será escalável e eficiente no envio massivo de mensagens, com o armazenamento das informações no MongoDB.
-   - **Objetivo de Aprendizado**: Integração de sistemas de envio de e-mails, gerenciamento de filas de mensagens e práticas de escalabilidade no envio em massa.
 
 5. **Gerenciador de Acesso**
    - **Tecnologias**: Spring Boot (Java)
